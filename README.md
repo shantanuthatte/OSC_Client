@@ -1,9 +1,3 @@
-# Fullscreen sample
+# OSC Client
 
-This is a basic test of using the HTML fullscreen api to cause a window to go
-full screen.
-
-## Resources
-
-* [Fullscreen Specification](http://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html)
-
+This is an OSC Client to send out UDP messages to a listening OSC Server. It uses the websocket interface specified with HTML5.
