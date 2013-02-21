@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "OSC Client",
+  "version": "1",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": ["fullscreen", {"socket": [
+        "udp-bind::9988",
+        "udp-send-to::8899"
+      ]}
+    ]
+}
